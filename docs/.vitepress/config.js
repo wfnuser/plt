@@ -10,11 +10,20 @@ module.exports = {
   },
   themeConfig: {
     nav: [
-      { text: "软件基础(idris)", link: "/software-foundation/" },
-      { text: "编程语言 - UW", link: "/programming-languages/" },
+      {
+        text: "类型系统",
+        link: "/type-systems/the-language-of-type-systems",
+      },
+      { text: "软件基础", link: "/software-foundation/" },
+      { text: "编程语言", link: "/programming-languages/" },
+      { text: "Github", link: "https://github.com/wfnuser/plt" },
     ],
     sidebar: {
       "/": [
+        {
+          text: "类型系统 - Luca Cardelli",
+          link: "/type-systems/the-language-of-type-systems",
+        },
         { text: "软件基础(idris)", link: "/software-foundation/" },
         { text: "编程语言 - UW", link: "/programming-languages/" },
       ],
@@ -26,8 +35,14 @@ module.exports = {
       ],
       "/programming-languages/": [
         {
-          text: "编程语言 - 华盛顿大学",
+          text: "编程语言 - UW",
           link: "/programming-languages/index",
+        },
+      ],
+      "/type-systems/": [
+        {
+          text: "类型系统的语言",
+          link: "/type-systems/the-language-of-type-systems",
         },
       ],
     },
