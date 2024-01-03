@@ -44,6 +44,10 @@ module.exports = {
           text: "类型系统的语言",
           link: "/type-systems/the-language-of-type-systems",
         },
+        {
+          text: "一阶类型系统",
+          link: "/type-systems/first-order-type-systems",
+        },
       ],
     },
   },
