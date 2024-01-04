@@ -48,6 +48,10 @@ module.exports = {
           text: "一阶类型系统",
           link: "/type-systems/first-order-type-systems",
         },
+        {
+          text: "二阶类型系统",
+          link: "/type-systems/second-order-type-systems",
+        },
       ],
     },
   },
