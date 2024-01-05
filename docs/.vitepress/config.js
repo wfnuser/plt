@@ -49,6 +49,10 @@ module.exports = {
           link: "/type-systems/first-order-type-systems",
         },
         {
+          text: "命令式语言中的一阶类型系统",
+          link: "/type-systems/first-order-type-systems-for-imperative-languages",
+        },
+        {
           text: "二阶类型系统",
           link: "/type-systems/second-order-type-systems",
         },
