@@ -56,6 +56,11 @@ module.exports = {
           text: "二阶类型系统",
           link: "/type-systems/second-order-type-systems",
         },
+        {
+          text: "子类型",
+          link: "/type-systems/subtyping",
+        },
+        
       ],
     },
   },
