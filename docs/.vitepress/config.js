@@ -60,6 +60,10 @@ module.exports = {
           text: "子类型",
           link: "/type-systems/subtyping",
         },
+        {
+          text: "等价性",
+          link: "/type-systems/equivalence",
+        },
         
       ],
     },
