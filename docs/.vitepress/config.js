@@ -64,7 +64,10 @@ module.exports = {
           text: "等价性",
           link: "/type-systems/equivalence",
         },
-        
+        {
+          text: "类型推断",
+          link: "/type-systems/type-inference",
+        },
       ],
     },
   },
